@@ -347,15 +347,17 @@ form {
  color: #e4b95b;
  margin-right: 5px;
 }
-#contact .contact-info a i {
- color: #fff;
- background: #383848;
- padding: 10px 20px;
+.id a{
+  padding: 10px 8px;
  font-size: 20px;
- margin: 0px 3px;
- border-radius: 50%;
+ border-radius: 50%; 
+  color: #fff;
+  background: #383848; 
 }
-#contact .contact-info a i:hover {
+.id a i {
+ text-align: center;
+}
+#contact .contact-info a:hover {
  background-color: #e4b95b;
  color: #383848;
 }
